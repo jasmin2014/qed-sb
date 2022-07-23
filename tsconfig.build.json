@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "outDir": "dist", // 输出文件夹
+      "module": "esnext", // 设置ts标准的module形式
+      "target": "es5", // 指定es版本
+      "declaration": true, // 指定编译之后给每个组件生成一个.d.ts的文件
+      "jsx": "react-jsx", 
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true
+    },
+    "include": [
+      "src"
+    ],
+    "exclude": [
+      "src/**/*.test.tsx",
+      "src/**/*.stories.tsx"
+    ]
+}
+  
+  

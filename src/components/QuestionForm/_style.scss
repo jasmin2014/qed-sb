@@ -1,0 +1,18 @@
+
+.pm-form-box {
+    border: 1px solid transparent;
+    .pm-form-title {
+        text-align: center;
+        line-height: $line-height-lg;
+        font-size: $font-size-lg;
+    }
+}
+.pm-form-box-active {
+    border-color: $primary;
+}
+.pm-form-box-danger {
+    border-color: $red;
+}
+.pm-form-box-default {
+    border-color: $gray-300;
+}
